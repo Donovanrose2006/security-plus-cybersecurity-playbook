@@ -32,3 +32,18 @@
 | cut | Extracts columns from a text file | -d: Specifies alternate delimiters <br/> -f: Specifies which fields to display <br/> -c: Bases extraction on character position
 | grep | Used to filter lines in a file or outputs of another command | --color: Colors specified word in red <br/> -c: Provides a count of how many lines match <br/> -n: Displays original line numbers <br/> -v: Inverts the search, searching for files that does NOT include the search <br/> -i: Ignores case <br/> -w: Only returns lines that contain full word matches
 | ascii | Shows the ASCII table | 
+| test | Used for easy comparison of strings (Left bracket can also be used) | -f: File test <br/> -d: Directory test <br/> -eq: Numeral comparison <br/> -o: Or <br/> -a: And
+| arch | Shows the family the current CPU belongs to
+| lscpu | Gives more information about the current CPU
+| free | Shows the amount of RAM on the system | -m: Rounds to the nearest megabyte <br/> -g: Rounds to the nearest gigabyte <br/> -s #: Specifies how often to update (in seconds)
+| lsusb | Shows the USB devices connected to the system
+| fdisk | Can be used to show partition information | 
+| umount | Unmounts an optical drive
+| ps | Shows current processes | --forest: Shows parent and child relationships between commands <br/> -ef: Shows all processes on the system <br/> -u: Shows the processes of a specific user
+| top | Shows a regularly updating interface of processes, sorted by CPU usage | 
+| kill | Allows the user to terminate a process of their choice
+| vi | Opens the vi text editor 
+| chmod | Changes the permissions on a file
+| sysctl | Gives attributes of the current kernal
+| jobs | Shows currently running commands
+| syslogd | Shows system logs
