@@ -47,3 +47,7 @@
 | sysctl | Gives attributes of the current kernal
 | jobs | Shows currently running commands
 | syslogd | Shows system logs
+| host | Gives the IP address a domain name is associated with
+| ifconfig | Displays network configuration information...slowly becoming obsolete
+| ip | A command with increased functionality and more options than ifconfig, somewhat of an umbrella command for more obsolete commands
+| route | Gives a table that describes where network packages are sent...being replaced by ip route (show)| -n: Gives numeric data only 
