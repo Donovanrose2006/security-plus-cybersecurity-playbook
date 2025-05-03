@@ -1,7 +1,7 @@
 
 | Command | Description | Flags |
 | --- | --- | --- |
-| ls | Lists entries in a directory | -a: List all entries <br/> -l: Long list <br/> -h: Human readable <br/> -R: Gives a recursive listing of the directory <br/> -s: Sorts by size <br/> -t: Sorts by time last modified <br/> -d: Prevents files from subdirectories from being displayed
+| ls | Lists entries in a directory | -a: List all entries <br/> -l: Long list <br/> -h: Human readable <br/> -R: Gives a recursive listing of the directory <br/> -s: Sorts by size <br/> -t: Sorts by time last modified <br/> -d: Prevents files from subdirectories from being displayed <br/> -i: Displays the inode number of a file
 | whoami | Gives the username of the user |
 | uname | Gives the current kernal used | -n: Gives the network node hostname
 | pwd | Gives the current directory in use | 
@@ -71,3 +71,9 @@
 | chage | Provides options for managing passwords | -l: Lists the account aging information <br/> -d: Sets the date of last password change <br/> -E: Sets account to expire on specified date <br/> -I: Sets account to permit login for specified days after password expires <br/> -m: Sets minimum days for password change <br/> -M: Sets maximum days before a password will change <br/> -W: Sets amount of days until user should be warned to change their password
 | usermod | Gives options for modifying existing user accounts | -c: Sets the comment value <br/> -d: Changes the home directory of the user <br/> -e: Sets the account expiration date <br/> -f: Sets days login is permitted after password expires <br/> -g: Sets primary group <br/> -G: Sets supplementary groups <br/> -a: Appends the users supplemental groups <br/> -l: Changes login name <br/> -L: Locks the account <br/> -s: Specifies the login shell for the account <br/> -u: Changes the UID of the account <br/> -U: Unlocks the account
 | userdel | Deletes the specified user | -r: Deletes the home directory and the mail spool of the user as well
+| newgrp | Changes your current primary group to the specified group |
+| groups | Gives what groups you are a part of |
+| chgrp | Changes the group owner of a file | -R: Changes all group ownership of a directory structure
+| chown | Allows the root users to change the user ownership of files and directories
+| umask | Determines default permissions when a file or directory is created
+| ln | Creates links between files | -s: Creates a symbolic link
